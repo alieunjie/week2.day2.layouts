@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    background: pink;
+}
+ nav footer{
+    background-color: paleturquoise;
+    height:72px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav a, footer{
+    font-size:2em;
+    color:#afafee;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    color:#739273;
+}
+.main cotainer{
+    height:100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+main_content_container{
+    flex: 1
+}
+.main content{
+color: #739273;
+padding-left: 26px;
+padding-right: 26px;
+overflow-y: scroll
+}
+.flex-padding{
+width: 100%;
+background: pink;
+flex-shrink: 0
+}
